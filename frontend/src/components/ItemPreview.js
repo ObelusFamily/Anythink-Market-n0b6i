@@ -37,7 +37,7 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
-        src={item.image.image ? item.seller.image : placeholder}
+        src={item.image ? item.image : placeholder}
         className="card-img-top item-img"
         style={{ borderRadius: '20px' }}
       />
